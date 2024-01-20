@@ -17,6 +17,7 @@ package com.example.woof.data
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import androidx.compose.ui.res.stringResource
 import com.example.woof.R
 
 /**
@@ -30,6 +31,7 @@ data class Dog(
 )
 
 val dogs = listOf(
+    Dog(R.drawable.kitu, R.string.dog_name_10,21,R.string.dog_description_10),
     Dog(R.drawable.koda, R.string.dog_name_1, 2, R.string.dog_description_1),
     Dog(R.drawable.lola, R.string.dog_name_2, 16, R.string.dog_description_2),
     Dog(R.drawable.frankie, R.string.dog_name_3, 2, R.string.dog_description_3),
